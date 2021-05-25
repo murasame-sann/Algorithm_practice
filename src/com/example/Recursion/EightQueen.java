@@ -9,7 +9,6 @@ public class EightQueen {
     int max = 8;
     //定义数组，保存皇后的位置
     int[] array = new int[max];
-
     public static void main(String[] args) {
         EightQueen queens = new EightQueen();
         queens.check(0);
